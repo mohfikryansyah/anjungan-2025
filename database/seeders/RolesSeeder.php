@@ -16,12 +16,12 @@ class RolesSeeder extends Seeder
     {
         $leader = \App\Models\User::factory()->create([
             'name' => 'Leader',
-            'email' => 'leader@bpkhtl15gorontalo.com',
+            'email' => 'leader@bpkh15gorontalo.com',
             'password' => Hash::make('123adm!N')
         ]);
         $admin = \App\Models\User::factory()->create([
             'name' => 'admin',
-            'email' => 'admin@bpkhtl15gorontalo.com',
+            'email' => 'admin@bpkh15gorontalo.com',
             'password' => Hash::make('123adm!N')
         ]);
 
