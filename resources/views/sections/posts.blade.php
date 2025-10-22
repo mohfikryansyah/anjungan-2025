@@ -68,7 +68,7 @@
         </div>
     @else
         <div class="grid grid-cols-1">
-            <div class="col-span-1 p-6 bg-slate-700 border border-slate-600 rounded-lg shadow">
+            <div class="col-span-1 p-6 bg-green-700 border border-slate-600 rounded-lg shadow">
                 <h1 class="text-center py-40 text-gray-200">No post found.</h1>
             </div>
         </div>
