@@ -144,7 +144,7 @@
             <h2 class="text-base text-gray-400">Jelajahi portal lain yang masih berada di bawah naungan BPKH
             </h2>
             <div class="flex md:flex-row flex-col items-center justify-center gap-4 mt-10">
-                <a href="https://gorontalo.basarnas.go.id/" target="_blank">
+                <a href="https://bukutamu.bpkh15gorontalo.com/" target="_blank">
                     <div
                         class="rounded-xl border flex flex-col items-center justify-center w-[300px] py-5 duration-300 gap-4">
                         <div class="bg-green-100 p-2.5 rounded-lg">
