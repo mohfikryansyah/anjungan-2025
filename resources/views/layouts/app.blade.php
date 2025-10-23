@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins&display=swap"
         rel="stylesheet">
         <link rel="shortcut icon" href="kehutanan-logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="{{ asset('build/assets/app-426029fe.css') }}">
+    <link rel="stylesheet" href="{{ asset('build/assets/app-f99929d9.css') }}">
      {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
     @bukStyles
 </head>

@@ -1,14 +1,13 @@
 <section class="bg-gray-50 overflow-hidden">
     <div class="max-w-screen-xl px-6 py-8 mx-auto lg:pb-24 lg:pt-10 lg:px-6">
         <div class="w-full text-center mb-8">
-            <h1 class="lg:text-3xl md:text-2xl text-xl font-semibold text-green-600">Berita</h1>
+            <h1 class="sm:text-3xl text-2xl font-semibold text-green-600">Berita</h1>
             <h1 class="max-w-screen-md mx-auto font-light text-lg text-gray-500 py-2">Temukan informasi disini!</h1>
         </div>
         <div class="w-full p-4 bg-green-600 rounded-lg shadow-md sm:p-8">
             @if (count($posts))
                 <div class="grid lg:grid-cols-10 grid-cols-1 gap-7">
-                    <div
-                        class="lg:col-span-3 col-span-1 bg-white border rounded-lg shadow overflow-hidden">
+                    <div class="lg:col-span-3 col-span-1 bg-white border rounded-lg shadow overflow-hidden">
                         @foreach ($posts as $image)
                             <img src="{{ asset('storage/' . $image->post_image) }}"
                                 class="rounded-lg hover:scale-105 duration-300 max-w-full h-auto" alt="">

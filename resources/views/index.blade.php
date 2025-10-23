@@ -85,12 +85,12 @@
 
 
     <section class="bg-gray-50 w-full py-8 text-center lg:py-20 lg:px-10 overflow-hidden">
-        <div class="max-w-screen-lg mx-auto text-center mb-5">
-            <h1 class="lg:text-3xl md:text-2xl text-xl font-semibold text-green-600 mb-2">PETA</h1>
-            <h2 class="text-lg text-gray-500">Peta Kawasan Hutan Provinsi Gorontalo
+        <div class="max-w-screen-2xl mx-auto text-center">
+            <h1 class="sm:text-3xl text-2xl font-semibold text-green-600 mb-2">PETA</h1>
+            <h2 class="text-lg text-gray-500 lg:mb-8 mb-4">Peta Kawasan Hutan Provinsi Gorontalo
             </h2>
+            <img src="{{ asset('images/peta2.jpg') }}" alt="Peta Kawasan Hutan Prov. Gorontalo">
         </div>
-        <img src="{{ asset('images/peta2.jpg') }}" alt="Peta Kawasan Hutan Prov. Gorontalo">
     </section>
 
     @include('sections.posts')
@@ -112,7 +112,7 @@
             </svg>
             <blockquote>
                 <p class="text-sm text-center font-medium text-gray-100 md:text-2xl">"Selamat datang di website resmi Balai
-                    Pemantapan Kawasan Hutan dan Tata Lingkungan! Kami berkomitmen untuk melestarikan kekayaan alam dan
+                    Pemantapan Kawasan Hutan! Kami berkomitmen untuk melestarikan kekayaan alam dan
                     lingkungan. Terus dukung upaya kami dalam menjaga keindahan alam kita. Terima kasih!"</p>
             </blockquote>
             <figcaption class="flex items-center justify-center mt-6 space-x-3">
@@ -129,14 +129,50 @@
 
     <section class="bg-gray-50 w-full px-4 py-8 mx-auto lg:py-16 lg:px-6 mySwiper">
         <div class="max-w-screen-lg mx-auto pb-4 text-center mb-5">
-
             <h1 class="sm:text-3xl text-2xl font-semibold text-gray-700 mb-2">Informasi PPKH - KLHK</h1>
             <h2 class="text-base text-gray-400">Pelayanan Informasi Permohonan Persetujuan Penggunaan Kawasan Hutan (PPKH)
             </h2>
         </div>
         <div class="max-w-screen-xl mx-auto flex space-x-3 text-center overflow-x-auto">
             @include('sections.swiper')
+        </div>
+    </section>
 
+    <section class="bg-gray-50 w-full px-4 py-8 mx-auto lg:py-16 lg:px-6 mySwiper">
+        <div class="max-w-screen-lg mx-auto pb-4 text-center mb-5">
+            <h1 class="sm:text-3xl text-2xl font-semibold text-gray-700 mb-2">Portal Terkait</h1>
+            <h2 class="text-base text-gray-400">Jelajahi portal lain yang masih berada di bawah naungan BPKH
+            </h2>
+            <div class="flex md:flex-row flex-col items-center justify-center gap-4 mt-10">
+                <a href="https://gorontalo.basarnas.go.id/" target="_blank">
+                    <div
+                        class="rounded-xl border flex flex-col items-center justify-center w-[300px] py-5 duration-300 gap-4">
+                        <div class="bg-green-100 p-2.5 rounded-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"
+                                class="w-8 h-8 text-green-500" aria-hidden="true" focusable="false">
+                                <title>Buku Tamu</title>
+                                <path
+                                    d="M3 5.5A2.5 2.5 0 0 1 5.5 3h11A2.5 2.5 0 0 1 19 5.5v13A2.5 2.5 0 0 1 16.5 21h-11A2.5 2.5 0 0 1 3 18.5v-13z" />
+                                <path d="M8 8.5h6M8 11h6" />
+                                <path d="M17.2 6.8l-2.4 2.4 1.2 1.2 2.4-2.4a1 1 0 0 0 0-1.4l-.8-.8a1 1 0 0 0-1.4 0z" />
+                            </svg>
+                        </div>
+
+                        <h1 class="text-green-500 font-semibold text-2xl">
+                            Buku Tamu
+                        </h1>
+                    </div>
+                </a>
+                {{-- <a href="https://bpbd.bonebolangokab.go.id/" target="_blank">
+                    <div class="rounded-xl border flex items-center justify-center w-[300px] py-5 duration-300 gap-3">
+                        <img src="/sinergi/bpbd.png" class="h-20" alt="" />
+                        <h1 class="text-orange-400 font-semibold text-2xl">
+                            Peminjaman Barang
+                        </h1>
+                    </div>
+                </a> --}}
+            </div>
         </div>
     </section>
 @endsection

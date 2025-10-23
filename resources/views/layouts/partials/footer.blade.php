@@ -1,8 +1,8 @@
-<footer class="bg-whitemax-w-screen-xl p-4 py-6 mx-auto lg:py-8">
+<footer class="bg-whitemax-w-screen-xl mx-auto">
     <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
     <div class="text-center">
         <a href="#" class="flex flex-col items-center justify-center mb-5">
-            <img src="{{ asset('kehutanan-logo.png') }}" class="h-6 mr-3 sm:h-24 mb-3" alt="Logo" />
+            <img src="{{ asset('kehutanan-logo.png') }}" class="h-[5rem] mr-3 md:h-24 mb-3" alt="Logo" />
         </a>
         <h1 class="lg:text-2xl md:text-xl text-lg mb-5 font-semibold text-gray-900 uppercase">
             Balai Pemantapan Kawasan Hutan
