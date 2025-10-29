@@ -182,7 +182,7 @@
                         <button id="dropdownDelayButton2" data-dropdown-toggle="dropdownDelay2"
                             data-dropdown-delay="100" data-dropdown-trigger="hover"
                             class="flex items-center justify-between w-full text-white pl-3 md:pl-0 mt-2 md:mt-0"
-                            type="button">PKH<svg class="w-2.5 h-2.5 ms-3" aria-hidden="true"
+                            type="button">PPKH<svg class="w-2.5 h-2.5 ms-3" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                     stroke-width="2" d="m1 1 4 4 4-4" />
@@ -210,7 +210,7 @@
                         <button id="dropdownDelayButton3" data-dropdown-toggle="dropdownDelay3"
                             data-dropdown-delay="100" data-dropdown-trigger="hover"
                             class="flex items-center justify-between w-full text-white pl-3 md:pl-0 mt-2 md:mt-0"
-                            type="button">ISDHTL<svg class="w-2.5 h-2.5 ms-3" aria-hidden="true"
+                            type="button">SDH<svg class="w-2.5 h-2.5 ms-3" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                     stroke-width="2" d="m1 1 4 4 4-4" />

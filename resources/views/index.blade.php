@@ -129,7 +129,7 @@
 
     <section class="bg-gray-50 w-full px-4 py-8 mx-auto lg:py-16 lg:px-6 mySwiper">
         <div class="max-w-screen-lg mx-auto pb-4 text-center mb-5">
-            <h1 class="sm:text-3xl text-2xl font-semibold text-gray-700 mb-2">Informasi PPKH - KLHK</h1>
+            <h1 class="sm:text-3xl text-2xl font-semibold text-gray-700 mb-2">Informasi PPKH</h1>
             <h2 class="text-base text-gray-400">Pelayanan Informasi Permohonan Persetujuan Penggunaan Kawasan Hutan (PPKH)
             </h2>
         </div>
